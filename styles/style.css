@@ -1,1 +1,41 @@
+.bg-info {
+    background-color: #ba3b46 !important; /* Light green for secondary backgrounds */
+}
 
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #0E0004;            /* Dark green for brand name & nav links for visibility */
+}
+
+.btn-search{
+    color: #FBF5F3;
+    background-color: #808F85;
+    border-color: #AE4750;
+}
+
+.btn-search:hover{
+    color: #FBF5F3;
+    background-color: #F3A712;
+    border-color: #AE4750;
+}
+
+.btn-primary{
+    color: #f2fbf2;            /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #BA3B46;
+    border-color: #AE4750;
+    border-width: thick;
+}
+
+.btn-primary:hover{
+    background-color: #F3A712;
+    border-color: #F3A712;
+}
+
+body {
+    background-color: #0E0004;
+    color: #FBF5F3;
+}
+
+footer {
+    background-color: #ba3b46;
+}
